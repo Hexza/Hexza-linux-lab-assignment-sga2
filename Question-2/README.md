@@ -4,7 +4,7 @@
 gcc server_monitor.c -o server_monitor
 **Explanation:** Compiled the C program with no errors, confirming the fork/wait/kill logic was syntactically correct.
 
-![screenshot](screenshots/1-compile.png)
+![screenshot](Screenshots/1-compile.png)
 
 ## Command 2
 ./server_monitor
