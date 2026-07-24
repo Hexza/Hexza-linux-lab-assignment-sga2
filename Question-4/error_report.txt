@@ -1,0 +1,2 @@
+ERROR: Database connection timeout
+ERROR: Failed to write to disk

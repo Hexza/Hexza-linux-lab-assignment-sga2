@@ -1,0 +1,4 @@
+INFO: Server started
+ERROR: Database connection timeout
+WARNING: High memory usage
+ERROR: Failed to write to disk

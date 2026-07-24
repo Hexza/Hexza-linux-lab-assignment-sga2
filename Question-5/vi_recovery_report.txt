@@ -1,0 +1,1 @@
+I opened critical_config.conf in vi, typed unsaved content, and then simulated a crash by closing the editor without saving. After that, I used the swap file with vi -r critical_config.conf to recover the unsaved text. This demonstrates how vi recovery works using .swp files.
