@@ -10,10 +10,10 @@ gcc server_monitor.c -o server_monitor
 ./server_monitor
 **Explanation:** The parent process forked a child that simulated an unresponsive server. After 5 seconds, the parent detected the child hadn't exited, killed it with SIGKILL, and reaped it with waitpid() to prevent a zombie process.
 
-![screenshot](screenshots/cmd2.png)
+![screenshot](Screenshots/2-run.png)
 
 ## Command 3
 ps aux | grep server_monitor
 **Explanation:** Verified that no zombie (Z state) process remained after termination — only the grep command itself appears in the process list, confirming proper cleanup.
 
-![screenshot](screenshots/cmd2.png)
+![screenshot](Screenshots/3-ps-check.png)
