@@ -1,4 +1,4 @@
-# Rayan Sharma Linux Lab Assignment
+# Rayan Sharma - Command Line Interfaces and Scripting - Staff Graded Assignment 2
 
 This repository contains my Linux lab submission for Questions 1 to 5.
 
