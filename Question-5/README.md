@@ -6,7 +6,7 @@ vi critical_config.conf
 ```
 **Explanation:** Opened the configuration file in vi and entered unsaved content to simulate a crash scenario.
 
-![screenshot](screenshots/cmd1.png)
+![screenshot](Screenshots/1-vi-unsaved.png)
 
 ## Command 2
 ```bash
@@ -14,7 +14,7 @@ ls -a | grep critical_config
 ```
 **Explanation:** Verified that vi created a swap file after the crash, which confirms recovery data is available.
 
-![screenshot](screenshots/cmd2.png)
+![screenshot](Screenshots/2-swap-file.png)
 
 ## Command 3
 ```bash
@@ -22,4 +22,4 @@ vi -r critical_config.conf
 ```
 **Explanation:** Recovered the unsaved content from the swap file and confirmed the data was restored.
 
-![screenshot](screenshots/cmd3.png)
+![screenshot](Screenshots/3-recovery.png)
